@@ -1,5 +1,7 @@
+"use strict";
 // Question No.24
-var car = 'civic';
+Object.defineProperty(exports, "__esModule", { value: true });
+let car = 'civic';
 // test 1: Equality comparison (True)
 console.log("Is car == 'civic'? I predict True.");
 console.log(car == car); // True

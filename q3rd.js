@@ -1,5 +1,7 @@
+"use strict";
 // Question No.3
-var personName = "syed";
+Object.defineProperty(exports, "__esModule", { value: true });
+let personName = "syed";
 // lower case
 console.log(personName.toLowerCase());
 // upper case

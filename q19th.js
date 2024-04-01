@@ -1,3 +1,5 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 // Question No.19
-var guestArray = ["Mesum", "Mohib", "Kashan"];
+let guestArray = ["Mesum", "Mohib", "Kashan"];
 console.log(guestArray.length, "people are invited in dinner");

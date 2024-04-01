@@ -1,5 +1,7 @@
+"use strict";
 // Question No.27
-var alein_color = "green";
+Object.defineProperty(exports, "__esModule", { value: true });
+let alein_color = "green";
 if (alein_color == "green") {
     console.log("the player just earned 5 points.");
 }

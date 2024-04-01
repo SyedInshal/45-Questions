@@ -1,6 +1,8 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 // Question No.5 
-var famousperson = "Shakespeare";
-var famousquote = '"There is nothing either good or bad, but thinking makes it so"';
+let famousperson = "Shakespeare";
+let famousquote = '"There is nothing either good or bad, but thinking makes it so"';
 // compose message
-var message = "".concat(famousperson, " once said, ").concat(famousquote);
+let message = `${famousperson} once said, ${famousquote}`;
 console.log(message);

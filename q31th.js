@@ -1,5 +1,7 @@
+"use strict";
 // Question No.31
-var users = ["ali", "inshal", "mesum", "moazzam", "admin"];
+Object.defineProperty(exports, "__esModule", { value: true });
+let users = ["ali", "inshal", "mesum", "moazzam", "admin"];
 if (users.length === 0) {
     console.log("We need to find some users!");
 }

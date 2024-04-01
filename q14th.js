@@ -1,4 +1,6 @@
+"use strict";
 // Question No.14
-var guestArray = ["Mesum", "Mohib", "Kashan"];
+Object.defineProperty(exports, "__esModule", { value: true });
+let guestArray = ["Mesum", "Mohib", "Kashan"];
 // Invitation Message
-guestArray.map(function (items) { return console.log("Hello, ".concat(items, " You Are Invited To Dinner")); });
+guestArray.map((items) => console.log(`Hello, ${items} You Are Invited To Dinner`));

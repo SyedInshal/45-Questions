@@ -1,5 +1,7 @@
+"use strict";
 // Question No.18
-var PlacesToVisit = ["Pakistan, Thailand, Hongkong, America, Russia"];
+Object.defineProperty(exports, "__esModule", { value: true });
+let PlacesToVisit = ["Pakistan, Thailand, Hongkong, America, Russia"];
 // console.log(PlacesToVisit);
 // console.log(PlacesToVisit.sort());
 // console.log(PlacesToVisit);
@@ -7,7 +9,7 @@ var PlacesToVisit = ["Pakistan, Thailand, Hongkong, America, Russia"];
 // console.log(PlacesToVisit);
 // console.log(PlacesToVisit.reverse());
 // console.log(PlacesToVisit.reverse());
-var sortedArray = ["Pakistan, Thailand, Hongkong, America, Russia"];
+let sortedArray = ["Pakistan, Thailand, Hongkong, America, Russia"];
 sortedArray.sort();
 console.log(sortedArray);
 sortedArray.reverse();
